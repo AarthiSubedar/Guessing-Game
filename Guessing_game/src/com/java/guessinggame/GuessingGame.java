@@ -25,7 +25,6 @@ public class GuessingGame {
                 while (!result) {
                     // Prompt the user to guess the number
                 	attempts ++;
-                	System.out.println("The Random number is :" +generatedNum);
                     System.out.print("Enter your guess: ");
                     int userNum = sc.nextInt();
 
